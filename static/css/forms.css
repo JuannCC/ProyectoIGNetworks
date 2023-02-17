@@ -4,7 +4,7 @@ input{
     border: 1px solid var(--color-text);
     padding: 5px;
     margin: 3px;
-    width: 100%;
+    width: 90%;
 }
 .btn-send{
     width: 77%;
@@ -28,7 +28,8 @@ input{
 }
 .aux-btns-form a {
     padding-right: 10px;
-    text-decoration: none;
+    color: rgb(32, 32, 251);
+    justify-content: start;
 }
 .aux-btns-form a:hover {
     color: var(--color-primary);

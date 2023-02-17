@@ -6,13 +6,15 @@
 
 <span class="aux-btns"> <a href="{% url 'contact' %}">Volver atras</a></span>
 <ul class='list'>
-    <li><b>Nombre: </b>{{contact.name}}</li>
-    <li><b>Apellido: </b>{{contact.last_name}}</li>
-    <li><b>Telefono: </b>{{contact.phone}}</li>
-    <li><b>Movil: </b>{{contact.mobile}}</li>
-    <li><b>Email: </b>{{contact.email}}</li>
-    <li><b>Compañia: </b>{{contact.company}}</li>
-    <li><b>Fecha de creacion: </b>{{contact.date}}</li>
-    <li><b>Notas: </b>{{contact.notes}}</li>
+
+    <li><b>Nombre:</b>{{contact.name}}</li>
+    <li><b>Es cliente clave?</b>{{contact.clave}}</li>
+    <li><b>Es cronico?</b>{{contact.cronico}}</li>
+    <li><b>Tiene visibilidad?</b>{{contact.visibilidad}}</li>
+    <li><b>Ultimo ticket abierto por cliente?</b>{{contact.ultimoticket}}</li>
+    <li><b>IGN tiene otro circuito en el mismo site?</b>{{contact.site}}</li>
+    <li><b>Ancho de banda medio consumido:</b>{{contact.bw}}</li>
+    <li><b>Picos de trafico:</b>{{contact.picos}}</li>
+    <li><b>Comentarios:</b>{{contact.notes}}</li>
 </ul>
 {% endblock %}

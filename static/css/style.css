@@ -66,6 +66,7 @@ main{
     align-items: center;
 }
 .list{
+    
     display: flex;
     flex-direction: column;
     border: 1px solid var(--color-text);
@@ -109,6 +110,14 @@ main{
     background-color: rgba(228, 227, 227, 0.268);
     color: var(--color-primary);
 }
+.btn-status{
+    background-color: #3e11c7;
+    color: white;
+}
+.btn-status:hover{
+    background-color: rgba(228, 227, 227, 0.268);
+    color: var(--color-primary);
+}
 .search{
     margin: 20px;
     width: 50%;
@@ -138,11 +147,12 @@ main{
 }
 .aux-btns a{
     padding-right: 10px;
-    text-decoration: none;
+    color: rgb(32, 32, 251);
 }
 .aux-btns a:hover{
     color: var(--color-primary);
 }
+
 
 .alert-success {
     width: 100%;
@@ -175,3 +185,12 @@ main{
 }
 
 /* End settings */
+.servicios {
+    width: 100%;
+    
+}
+.serv{
+    width: 20%;
+    background-color: rgb(188, 188, 188);
+    border: black;
+}
